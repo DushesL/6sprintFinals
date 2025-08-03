@@ -43,5 +43,3 @@ func NewServer(logger *log.Logger) *Server {
 func (s *Server) Start() error {
 	return s.server.ListenAndServe()
 }
-
-// Метод для остановки сервера
